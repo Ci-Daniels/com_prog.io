@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<title>ATTACHMENT PORTFOLIO</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h5 {font-family: "Arial black"}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('Robotics.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+       background-color:grey;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: turquoise;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+body {
+  font-family: 'Times NewRoman';
+}
+/*social media icons*/
+.fa {
+  padding: 30px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100%;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+
+.fa-twitter {
+  background: turquoise;
+  color: blue;
+}
+
+.fa-linkedin {
+  background: blue;
+  color: white;
+}
+.fa-instagram {
+  background: maroon;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-topleft w3-jumbo">
+    <p><font face="ALGERIAN" color="BLUE" size="6">WELCOME</font></p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">MENU</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">CONTACTS</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <p class="w3-xlarge">ELECTRONICS AND COMPUTER ENGINEERING | PROGRAMMING | WEB DEVELOPMENT |ART </p>
+    <p class="w3-large">JUJA,NAIROBI</p>
+  </div>
+</div>
+
+<br>
+<footer class="w3-container background-color:grey w3-center">
+  <p>Find me on social media.</p>
+<div class="social media icons">
+  <a class="active" target="_blank" href="https://www.github.com/Ci-Daniels/"><i class="fa fa-github"></i></a>
+  <a target="_blank" href="https://www.instagram.com/_ciku_k/"><i class="fa fa-instagram"></i></a>
+  <a target="_blank" href="https://www.twitter.com/@ciku85737070/"><i class="fa fa-twitter"></i></a>
+  <a target="_blank" href="https://www.linkedin.com/in/ciku-daniels-336b31194/"><i class="fa fa-linkedin"></i></a>
+</div>
+</footer>
+<!-- Menu Modal -->
+<div id="menu" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-hover-blue-grey w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <!-- First Grid: Logo & About -->
+      <div class="w3-row">
+        <div class="w3-half w3-hover-black w3-container w3-center" style="height:700px">
+          <div class="w3-padding-64">
+           <h1><center>WELCOME</center></h1>
+            </div>
+	        <div class="w3-padding-64">
+	          <a href="HOME.html" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">HOME</a>
+		      <a href="ABOUT.html" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">ABOUT</a>
+		      <a href="PROJECTS.html" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">PROJECTS</a>
+		    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+       <div class="row">
+				  <div class="column style=" background-color:black>
+				    <h1>Swing By</h1>
+				    <br>
+				      <p>..for a cup of coffee<i class="fa fa-coffee fa-spin"></i>
+              <br>...and great hacking.<i class="fa fa-tv"></i></p>
+				      <p>Nairobi, Kenya</p>
+				      <p>+254 797229001</p>
+				      <p>cikudaniels99@gmail.com</p>
+				    </div>
+				  </div>
+				  <br>
+                  <h2>Personal Details</h2>
+
+					<div class="container">
+					  <form action="PROJECTS.html" method="post">
+					  <div class="row">
+					    <div class="col-25">
+					      <label for="fname">First Name</label>
+					    </div>
+					    <div class="col-75">
+					      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+					    </div>
+					  </div>
+					  <div class="row">
+					    <div class="col-25">
+					      <label for="lname">Last Name</label>
+					    </div>
+					    <div class="col-75">
+					      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+					    </div>
+					  </div>
+					  <div class="row">
+					    <div class="col-25">
+					      <label for="eaddress">Email Address</label>
+					    </div>
+					    <div class="col-75">
+					      <input type="alphanumerical" id="eaddress" name="emailaddress" placeholder="Write your email..">
+					    </div>
+					  </div>
+					  <div class="row">
+					    <div class="col-25">
+					      <label for="field">Field of study</label>
+					    </div>
+					    <div class="col-75">
+					      <select id="field" name="fieldofstudy">
+					        <option value="electrical">ELECTRICAL ENGINEERING</option>
+					        <option value="mechanical">MECHANICAL ENGINEERING</option>
+					        <option value="computer">COMPUTER ENGINEERING</option>
+					      </select>
+					    </div>
+						  </div>
+						  <div class="row">
+						    <div class="col-25">
+						      <label for="subject">Subject</label>
+						    </div>
+						    <div class="col-75">
+						      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+						    </div>
+					    	</div>
+						  <div class="row">
+						    <input type="submit" value="Submit">
+						  </div>
+						  </form>
+           </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>  
